@@ -4,6 +4,8 @@
         "title": "Magical Maze: Heart and Key Quest",
         "description": "In this fantasy adventure game, the player is trapped in a cursed forest and must complete various missions to return to the real world. The player needs to collect hearts, solve puzzles, pass through moving platforms, and avoid enemies while exploring the environment. By overcoming these challenges, the player gradually breaks the curse, restores harmony to the forest, and defeats the witch’s evil magic.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "https://www.youtube.com/embed/cVqptUrSHuU",
+        "image": "/images/magical-maze-heart-and-key-quest.png",
         "category": "Unity"
     },
     {
@@ -11,6 +13,8 @@
         "title": "Merlin’s Curse",
         "description": "Merlin’s Curse is a fantasy action-adventure game that mixes puzzle-solving, fighting, and story exploration. The player controls Merlin, a boy who is trapped by a curse and guided by a mysterious woman. To escape, he must explore magical worlds, solve puzzles, and use different elemental powers to fight enemies and guardians.\n\nAs the story continues, Merlin learns that the woman helping him is hiding a dark secret. What starts as a journey for freedom turns into a battle against betrayal and fate. The game focuses on emotional storytelling, beautiful environments, and fun gameplay that combines thinking, exploration, and action.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "https://www.youtube.com/embed/qOCyQi9lx44",
+        "image": "/images/merlins-curse.png",
         "category": "Unity"
     },
     {
@@ -18,6 +22,8 @@
         "title": "Battle Banner",
         "description": "Battle Banner is a fast-paced 3D competitive First Person Shooter (FPS) game set in a post-apocalyptic urban battlefield. Players are divided into two small teams, each protecting their own banner while trying to steal the enemy’s banner and return it to their base.\n\nUnlike traditional FPS games, Battle Banner emphasizes tactical movement, quick decision-making, and teamwork rather than shooting alone. With short and intense matches designed for 1–4 players per team, the game encourages cooperation, strategy, and communication. Through exciting gameplay, players learn the importance of teamwork, timing, and collaboration while enjoying a fun and competitive experience.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "https://www.youtube.com/embed/rH6oLNBAGMA",
+        "image": "/images/battle-banner.png",
         "category": "Unity"
     },
     {
@@ -25,6 +31,8 @@
         "title": "Lost Era: Crystal Hunt",
         "description": "Lost Era: Crystal Hunt is a 3D multiplayer PvE game with a Historical Time Travel theme. The game places players in different historical eras where they must work together to collect scattered energy crystals while avoiding guardians without harming them.\n\nAfter all crystals are collected, a countdown begins and alien enemies are released, forcing players to escape back to their spaceship before time runs out. The game emphasizes teamwork, critical thinking, and non-violent problem-solving through cooperative gameplay.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "https://www.youtube.com/embed/zM_9WX858zE",
+        "image": "/images/lost-era-crystal-hunt.png",
         "category": "Unity"
     },
     {
@@ -32,6 +40,8 @@
         "title": "Secret of the Blooded Town",
         "description": "Secret of the Blooded Town is an adventure narrative game that explores different storytelling structures through gameplay. Set in a mysterious coastal town, the game places players in the role of an investigator uncovering a series of hidden truths behind a murder case.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "https://www.youtube.com/embed/KFKfRuDl0j0",
+        "image": "/images/secret-of-the-blooded-town.png",
         "category": "Unity"
     },
     {
@@ -39,6 +49,8 @@
         "title": "Lightbound",
         "description": "Lightbound is a puzzle-adventure experience set in a mysterious otherworld. After a strange accident, the player is transformed into a glowing Seeker Orb and trapped in an unfamiliar environment.\n\nTo return to the real world, the player must explore the surroundings, solve puzzles, complete objectives, and carefully avoid enemies. Through observation, logic, and strategic movement, the player gradually uncovers the path to escape.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "https://www.youtube.com/embed/XsCCR_19_tc",
+        "image": "/images/lightbound.png",
         "category": "Unreal Engine"
     },
     {
@@ -46,6 +58,7 @@
         "title": "The Last Light of Divinity",
         "description": "The Last Night of Divinity is a narrative-driven fantasy project set in a world where Gods, Humans, and Monsters coexist in a fragile balance. Each race is sustained by a Core Element, a powerful source of energy meant to coexist rather than dominate. For centuries, the Gods acted as overseers of this balance, but as Humans and Monsters grow independent of divine power, the Gods begin to fear the loss of their supremacy.\n\nAs divine fear turns into control, the Gods manipulate the world by stealing the Monster Core and forcing the Monsters to take the Human Core, pushing the balance toward collapse. The player takes on the role of a Human Guardian, tasked with protecting humanity, uncovering the truth behind divine manipulation, and fighting to restore a world where coexistence is chosen over domination.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "",
         "category": "Unreal Engine"
     },
     {
@@ -53,6 +66,8 @@
         "title": "Village of the Spider Curse (Unity)",
         "description": "",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "https://www.youtube.com/embed/DbuUYqLXFLc",
+        "image": "/images/village-of-the-spider-curse.png",
         "category": "Game Cutscene / Timeline"
     },
     {
@@ -60,6 +75,8 @@
         "title": "The Secret Under the Town (Unity)",
         "description": "",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "",
+        "image": "/images/the-secret-under-the-town.png",
         "category": "Game Cutscene / Timeline"
     },
     {
@@ -67,6 +84,8 @@
         "title": "The Celestial Realm (Unreal Engine)",
         "description": "",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "",
+        "image": "/images/the-celestial-realm.png",
         "category": "Game Cutscene / Timeline"
     },
     {
@@ -74,6 +93,8 @@
         "title": "AR Business Card",
         "description": "An AR interactive business card created with Unity and Vuforia. Scanning the card reveals a 3D character and buttons that display personal information, projects, and hobbies in a modern and engaging way.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "https://www.youtube.com/embed/xCSjb8f2aiE",
+        "image": "/images/ar-business-card.png",
         "category": "AR"
     },
     {
@@ -81,6 +102,8 @@
         "title": "AR Greeting Card",
         "description": "An AR Christmas greeting card made with Unity and Vuforia. Scanning the card shows a festive 3D scene with interactive effects like snow, music, and photo capture for a joyful experience.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "",
+        "image": "/images/ar-greeting-card.png",
         "category": "AR"
     },
     {
@@ -88,6 +111,8 @@
         "title": "AR Storybook – The Three Little Pigs",
         "description": "This AR interactive storybook, developed using Unity and Vuforia, is designed for children aged 7 to 12 and is based on The Three Little Pigs. The storybook includes interactive mini-games such as building houses, facing the wolf, and answering quiz questions, allowing children to learn moral values through fun and engaging gameplay.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "https://www.youtube.com/embed/Ubvhfanhr98",
+        "image": "/images/ar-storybook-three-little-pigs.png",
         "category": "AR"
     },
     {
@@ -95,6 +120,8 @@
         "title": "Escape the Room",
         "description": "Escape the Room is a puzzle-based game where players must explore the environment, find hidden clues, and solve puzzles to unlock the door and escape. The game challenges players’ observation skills, logic, and problem-solving abilities through immersive and interactive gameplay.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "",
+        "image": "/images/escape-the-room.png",
         "category": "VR"
     },
     {
@@ -102,6 +129,8 @@
         "title": "Survival Island",
         "description": "Survival Island is an educational survival game where players learn basic survival knowledge through gameplay. The story begins with a shipwreck, leaving the player stranded on an unknown island with limited resources. Players must collect food and water, manage hunger and thirst, and learn survival skills such as identifying edible resources and boiling seawater. After completing key tasks, players travel to a larger island with richer resources, new animals, and potential dangers like poisonous plants. By exploring, learning, and making the right decisions, players complete the final mission and escape the island safely.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "",
+        "image": "/images/survival-island.png",
         "category": "VR"
     },
     {
@@ -109,6 +138,8 @@
         "title": "Emo",
         "description": "Lily is a talented girl who grows up under extreme academic pressure from her parents. Overwhelmed by stress and emotional pain, she begins to lose herself and faces a dark inner struggle. Trapped between reality and her unconscious mind, Lily reaches a breaking point that leads to a life-changing moment.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "",
+        "image": "/images/emo.png",
         "category": "Animation"
     },
     {
@@ -116,6 +147,8 @@
         "title": "Meowtivation Journey",
         "description": "This story follows Lily, a young girl who wakes up in a hospital after a suicide attempt. She is drawn into a mysterious Cat Kingdom by a black cat, where she experiences warmth, joy, and companionship. When darkness from her past and inner pain returns, Lily is forced to confront her depression. With the support of the cats, she finds the courage to accept herself and regain hope. She later wakes up in the hospital, unsure whether the Cat Kingdom was real or a dream, but carrying newfound strength and hope in her heart.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "https://www.youtube.com/embed/yg2g49rY1Ks",
+        "image": "/images/meowtivation-journey.png",
         "category": "Animation"
     },
     {
@@ -123,6 +156,8 @@
         "title": "Scissor and Pencil",
         "description": "",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "https://www.youtube.com/embed/bF8xCIKoJio",
+        "image": "/images/scissor-and-pencil.png",
         "category": "Animation"
     },
     {
@@ -130,6 +165,8 @@
         "title": "Human and Animal Walk and Run Cycle",
         "description": "",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "https://www.youtube.com/embed/xja1nG_-4zg",
+        "image": "/images/human-and-animal-walk-run-cycle.png",
         "category": "Animation"
     },
     {
@@ -137,6 +174,8 @@
         "title": "The Alley Fight",
         "description": "This animation tells the story of a young man and his sick mother living in a poor house in a dark cyberpunk alley. One day, a violent man comes to demand protection money and challenges the young man to a fight when they cannot pay. Although the young man is weak, he chooses to fight to protect his mother and their home. When he is about to lose, his mother bravely saves him by using an old gun, showing her love and courage despite her illness.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "https://www.youtube.com/embed/aWnp2ja4FPM",
+        "image": "/images/the-alley-fight.png",
         "category": "Animation"
     },
     {
@@ -144,6 +183,16 @@
         "title": "Study Room Modelling",
         "description": "",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "",
+        "image": "/images/study-room-environment.jpg",
+        "galleryImages": [
+            "/images/study-room-environment.jpg",
+            "/images/study-room-environment-01.jpg",
+            "/images/study-room-environment-02.jpg",
+            "/images/study-room-environment-03.jpg",
+            "/images/study-room-environment-04.jpg",
+            "/images/study-room-environment-05.jpg"
+        ],
         "category": "Modelling"
     },
     {
@@ -151,6 +200,17 @@
         "title": "Sci-Fi Building Modelling",
         "description": "",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "",
+        "orientation": "portrait",
+        "image": "/images/sci-fi-building-environment.jpg",
+        "galleryImages": [
+            "/images/sci-fi-building-environment.jpg",
+            "/images/sci-fi-building-environment-01.jpg",
+            "/images/sci-fi-building-environment-02.jpg",
+            "/images/sci-fi-building-environment-03.jpg",
+            "/images/sci-fi-building-environment-04.jpg",
+            "/images/sci-fi-building-environment-05.jpg"
+        ],
         "category": "Modelling"
     },
     {
@@ -158,6 +218,16 @@
         "title": "Character Modelling",
         "description": "",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "",
+        "image": "/images/character-modelling.jpg",
+        "galleryImages": [
+            "/images/character-modelling.jpg",
+            "/images/character-modelling-01.jpg",
+            "/images/character-modelling-02.jpg",
+            "/images/character-modelling-03.jpg",
+            "/images/character-modelling-04.jpg",
+            "/images/character-modelling-05.jpg"
+        ],
         "category": "Modelling"
     },
     {
@@ -165,6 +235,8 @@
         "title": "Love Story",
         "description": "Love Story is a short story about a boy who gathers his courage to confess his feelings to a girl he likes. The story follows his emotional journey from nervousness and fear of rejection to happiness and shyness.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "https://www.youtube.com/embed/DuMxHbPrQz8",
+        "image": "/images/love-story.png",
         "category": "Video"
     },
     {
@@ -172,6 +244,8 @@
         "title": "Batu Nisan: The Last Carver",
         "description": "Batu Nisan: The Last Carver is a documentary about the disappearing art of traditional tombstone carving. It follows Mr. Kuah, a Chinese craftsman who creates tombstones for Malay and Indian communities, highlighting the complex carving process, his unique workplace, and the importance of preserving this fading cultural heritage.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "https://www.youtube.com/embed/DuMxHbPrQz8",
+        "image": "/images/batu-nisan-the-last-carver.png",
         "category": "Video"
     },
     {
@@ -179,6 +253,16 @@
         "title": "HAPPY Birthday?",
         "description": "“HAPPY Birthday?” is a short film that takes place during an online group meeting. While discussing an assignment, strange moments begin to occur as voices from the iPad blur the line between reality and imagination. In the end, the tension is revealed to be part of a carefully planned birthday surprise prepared by her teammates outside the door.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "https://www.youtube.com/embed/te2-JjwVGDg",
+        "image": "/images/happy-birthday.png",
         "category": "Video"
+    },
+    {
+        "id": "27",
+        "title": "10 Types of DMT Student Life",
+        "description": "",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "",
+        "category": "Audio"
     }
 ]

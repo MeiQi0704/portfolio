@@ -1,0 +1,70 @@
+---
+---
+<footer class="site-footer">
+  <div class="container footer-content">
+    <div class="footer-left">
+      <div class="contact-info">
+        <p>011-11229919</p>
+        <p>mqleow20@gmail.com</p>
+        <p>
+          XIAMEN UNIVERSITY MALAYSIA<br/>
+          Jalan Sunsuria, Bandar Sunsuria,<br/>
+          43900 Sepang, Selangor Darul Ehsan, Malaysia
+        </p>
+      </div>
+    </div>
+    
+    <div class="footer-right">
+       <div class="copyright">
+         &copy; 2026 by MeiQi Leow. All rights reserved.
+       </div>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    background-color: var(--color-text); /* Theme color (dark brown) */
+    color: #fff; /* White text */
+    padding: var(--spacing-xl) 0;
+    width: 100%;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xl);
+  }
+
+  @media (min-width: 768px) {
+    .footer-content {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-end; /* Align bottom */
+    }
+
+    .footer-left {
+      max-width: 50%;
+    }
+
+    .footer-right {
+      text-align: right;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      gap: var(--spacing-sm);
+    }
+  }
+
+  .contact-info p {
+    margin: 0 0 var(--spacing-sm) 0;
+    font-size: 1rem;
+    line-height: 1.6;
+    opacity: 0.8;
+  }
+
+  .copyright {
+    font-size: 0.9rem;
+    opacity: 0.6;
+  }
+</style>
