@@ -3,29 +3,50 @@ import projects from '../data/projects.json';
 
 // Truncate description for the card view
 const truncate = (str: string, max: number) => str.length > max ? str.slice(0, max) + "..." : str;
+
+const CATEGORIES = [
+  "Unity",
+  "Unreal Engine",
+  "Game Cutscene / Timeline",
+  "AR",
+  "VR",
+  "Animation",
+  "Modelling",
+  "Video"
+];
+
+// Group projects by category
+const projectsByCategory = CATEGORIES.reduce((acc, category) => {
+  acc[category] = projects.filter(p => p.category === category);
+  return acc;
+}, {} as Record<string, typeof projects>);
+
+// Filter out empty categories for rendering
+const activeCategories = CATEGORIES.filter(cat => projectsByCategory[cat].length > 0);
 ---
 
 <section id="portfolio" class="portfolio-section">
   <div class="container">
-    <div class="section-header">
-      <h2>Selected Works</h2>
-      <p>A collection of 27 projects exploring design, motion, and digital art.</p>
-    </div>
-    
-    <div class="project-grid">
-      {projects.map((project) => (
-        <a href={`/projects/${project.id}`} class="project-card">
-          <div class="card-image-placeholder">
-            <span class="placeholder-icon">video</span>
-          </div>
-          <div class="card-content">
-            <h3>{project.title}</h3>
-            <p>{truncate(project.description, 60)}</p>
-            <span class="read-more">View Project &rarr;</span>
-          </div>
-        </a>
-      ))}
-    </div>
+
+    {activeCategories.map((category) => (
+      <div class="category-section">
+        <h3 class="category-title">{category}</h3>
+        <div class="project-grid">
+          {projectsByCategory[category].map((project) => (
+            <a href={`/projects/${project.id}`} class="project-card">
+              <div class="card-image-placeholder">
+                <span class="placeholder-icon">video</span>
+              </div>
+              <div class="card-content">
+                <h3>{project.title}</h3>
+                <!-- <p>{truncate(project.description, 60)}</p> -->
+                <span class="read-more">View Project &rarr;</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    ))}
   </div>
 </section>
 
@@ -35,15 +56,19 @@ const truncate = (str: string, max: number) => str.length > max ? str.slice(0, m
     position: relative;
   }
 
-  .section-header {
-    text-align: center;
-    max-width: 600px;
-    margin: 0 auto var(--spacing-xl);
+
+  .category-section {
+    margin-bottom: var(--spacing-xxl);
   }
 
-  .section-header h2 {
-    font-size: 2.5rem;
+  .category-title {
+    font-size: 2.2rem;
     color: var(--color-text);
+    margin-top: var(--spacing-xl);
+    margin-bottom: var(--spacing-lg);
+    border-bottom: 2px solid var(--color-accent);
+    padding-bottom: 0.5rem;
+    display: inline-block;
   }
 
   .project-grid {

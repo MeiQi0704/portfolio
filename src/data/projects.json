@@ -1,164 +1,184 @@
 [
     {
         "id": "1",
-        "title": "Project 1",
-        "description": "A creative exploration of form and function.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+        "title": "Magical Maze: Heart and Key Quest",
+        "description": "In this fantasy adventure game, the player is trapped in a cursed forest and must complete various missions to return to the real world. The player needs to collect hearts, solve puzzles, pass through moving platforms, and avoid enemies while exploring the environment. By overcoming these challenges, the player gradually breaks the curse, restores harmony to the forest, and defeats the witch’s evil magic.",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "category": "Unity"
     },
     {
         "id": "2",
-        "title": "Project 2",
-        "description": "Minimalist design approach for modern living.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+        "title": "Merlin’s Curse",
+        "description": "Merlin’s Curse is a fantasy action-adventure game that mixes puzzle-solving, fighting, and story exploration. The player controls Merlin, a boy who is trapped by a curse and guided by a mysterious woman. To escape, he must explore magical worlds, solve puzzles, and use different elemental powers to fight enemies and guardians.\n\nAs the story continues, Merlin learns that the woman helping him is hiding a dark secret. What starts as a journey for freedom turns into a battle against betrayal and fate. The game focuses on emotional storytelling, beautiful environments, and fun gameplay that combines thinking, exploration, and action.",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "category": "Unity"
     },
     {
         "id": "3",
-        "title": "Project 3",
-        "description": "Sustainable architecture concept.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+        "title": "Battle Banner",
+        "description": "Battle Banner is a fast-paced 3D competitive First Person Shooter (FPS) game set in a post-apocalyptic urban battlefield. Players are divided into two small teams, each protecting their own banner while trying to steal the enemy’s banner and return it to their base.\n\nUnlike traditional FPS games, Battle Banner emphasizes tactical movement, quick decision-making, and teamwork rather than shooting alone. With short and intense matches designed for 1–4 players per team, the game encourages cooperation, strategy, and communication. Through exciting gameplay, players learn the importance of teamwork, timing, and collaboration while enjoying a fun and competitive experience.",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "category": "Unity"
     },
     {
         "id": "4",
-        "title": "Project 4",
-        "description": "Digital landscape photography series.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+        "title": "Lost Era: Crystal Hunt",
+        "description": "Lost Era: Crystal Hunt is a 3D multiplayer PvE game with a Historical Time Travel theme. The game places players in different historical eras where they must work together to collect scattered energy crystals while avoiding guardians without harming them.\n\nAfter all crystals are collected, a countdown begins and alien enemies are released, forcing players to escape back to their spaceship before time runs out. The game emphasizes teamwork, critical thinking, and non-violent problem-solving through cooperative gameplay.",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "category": "Unity"
     },
     {
         "id": "5",
-        "title": "Project 5",
-        "description": "Experimental typography study.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+        "title": "Secret of the Blooded Town",
+        "description": "Secret of the Blooded Town is an adventure narrative game that explores different storytelling structures through gameplay. Set in a mysterious coastal town, the game places players in the role of an investigator uncovering a series of hidden truths behind a murder case.",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "category": "Unity"
     },
     {
         "id": "6",
-        "title": "Project 6",
-        "description": "Brand identity for a coffee shop.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+        "title": "Lightbound",
+        "description": "Lightbound is a puzzle-adventure experience set in a mysterious otherworld. After a strange accident, the player is transformed into a glowing Seeker Orb and trapped in an unfamiliar environment.\n\nTo return to the real world, the player must explore the surroundings, solve puzzles, complete objectives, and carefully avoid enemies. Through observation, logic, and strategic movement, the player gradually uncovers the path to escape.",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "category": "Unreal Engine"
     },
     {
         "id": "7",
-        "title": "Project 7",
-        "description": "Interactive web experience.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
-    },
-    {
-        "id": "8",
-        "title": "Project 8",
-        "description": "Print editorial layout design.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+        "title": "The Last Light of Divinity",
+        "description": "The Last Night of Divinity is a narrative-driven fantasy project set in a world where Gods, Humans, and Monsters coexist in a fragile balance. Each race is sustained by a Core Element, a powerful source of energy meant to coexist rather than dominate. For centuries, the Gods acted as overseers of this balance, but as Humans and Monsters grow independent of divine power, the Gods begin to fear the loss of their supremacy.\n\nAs divine fear turns into control, the Gods manipulate the world by stealing the Monster Core and forcing the Monsters to take the Human Core, pushing the balance toward collapse. The player takes on the role of a Human Guardian, tasked with protecting humanity, uncovering the truth behind divine manipulation, and fighting to restore a world where coexistence is chosen over domination.",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "category": "Unreal Engine"
     },
     {
         "id": "9",
-        "title": "Project 9",
-        "description": "Motion graphics showreel.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+        "title": "Village of the Spider Curse (Unity)",
+        "description": "",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "category": "Game Cutscene / Timeline"
     },
     {
         "id": "10",
-        "title": "Project 10",
-        "description": "User interface kit for mobile apps.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+        "title": "The Secret Under the Town (Unity)",
+        "description": "",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "category": "Game Cutscene / Timeline"
+    },
+    {
+        "id": "8",
+        "title": "The Celestial Realm (Unreal Engine)",
+        "description": "",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "category": "Game Cutscene / Timeline"
     },
     {
         "id": "11",
-        "title": "Project 11",
-        "description": "Packaging design for organic skincare.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+        "title": "AR Business Card",
+        "description": "An AR interactive business card created with Unity and Vuforia. Scanning the card reveals a 3D character and buttons that display personal information, projects, and hobbies in a modern and engaging way.",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "category": "AR"
     },
     {
         "id": "12",
-        "title": "Project 12",
-        "description": "3D character modeling and rigging.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+        "title": "AR Greeting Card",
+        "description": "An AR Christmas greeting card made with Unity and Vuforia. Scanning the card shows a festive 3D scene with interactive effects like snow, music, and photo capture for a joyful experience.",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "category": "AR"
     },
     {
         "id": "13",
-        "title": "Project 13",
-        "description": "Virtual reality environment demo.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+        "title": "AR Storybook – The Three Little Pigs",
+        "description": "This AR interactive storybook, developed using Unity and Vuforia, is designed for children aged 7 to 12 and is based on The Three Little Pigs. The storybook includes interactive mini-games such as building houses, facing the wolf, and answering quiz questions, allowing children to learn moral values through fun and engaging gameplay.",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "category": "AR"
     },
     {
         "id": "14",
-        "title": "Project 14",
-        "description": "Data visualization dashboard.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+        "title": "Escape the Room",
+        "description": "Escape the Room is a puzzle-based game where players must explore the environment, find hidden clues, and solve puzzles to unlock the door and escape. The game challenges players’ observation skills, logic, and problem-solving abilities through immersive and interactive gameplay.",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "category": "VR"
     },
     {
         "id": "15",
-        "title": "Project 15",
-        "description": "Abstract oil painting collection.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+        "title": "Survival Island",
+        "description": "Survival Island is an educational survival game where players learn basic survival knowledge through gameplay. The story begins with a shipwreck, leaving the player stranded on an unknown island with limited resources. Players must collect food and water, manage hunger and thirst, and learn survival skills such as identifying edible resources and boiling seawater. After completing key tasks, players travel to a larger island with richer resources, new animals, and potential dangers like poisonous plants. By exploring, learning, and making the right decisions, players complete the final mission and escape the island safely.",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "category": "VR"
     },
     {
         "id": "16",
-        "title": "Project 16",
-        "description": "Indie game development log.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+        "title": "Emo",
+        "description": "Lily is a talented girl who grows up under extreme academic pressure from her parents. Overwhelmed by stress and emotional pain, she begins to lose herself and faces a dark inner struggle. Trapped between reality and her unconscious mind, Lily reaches a breaking point that leads to a life-changing moment.",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "category": "Animation"
     },
     {
         "id": "17",
-        "title": "Project 17",
-        "description": "Short film cinematography.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+        "title": "Meowtivation Journey",
+        "description": "This story follows Lily, a young girl who wakes up in a hospital after a suicide attempt. She is drawn into a mysterious Cat Kingdom by a black cat, where she experiences warmth, joy, and companionship. When darkness from her past and inner pain returns, Lily is forced to confront her depression. With the support of the cats, she finds the courage to accept herself and regain hope. She later wakes up in the hospital, unsure whether the Cat Kingdom was real or a dream, but carrying newfound strength and hope in her heart.",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "category": "Animation"
     },
     {
         "id": "18",
-        "title": "Project 18",
-        "description": "Podcast cover art series.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+        "title": "Scissor and Pencil",
+        "description": "",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "category": "Animation"
     },
     {
         "id": "19",
-        "title": "Project 19",
-        "description": "Fashion lookbook layout.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+        "title": "Human and Animal Walk and Run Cycle",
+        "description": "",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "category": "Animation"
     },
     {
         "id": "20",
-        "title": "Project 20",
-        "description": "Ceramic pottery showcase.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+        "title": "The Alley Fight",
+        "description": "This animation tells the story of a young man and his sick mother living in a poor house in a dark cyberpunk alley. One day, a violent man comes to demand protection money and challenges the young man to a fight when they cannot pay. Although the young man is weak, he chooses to fight to protect his mother and their home. When he is about to lose, his mother bravely saves him by using an old gun, showing her love and courage despite her illness.",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "category": "Animation"
     },
     {
         "id": "21",
-        "title": "Project 21",
-        "description": "Interior design mood board.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
-    },
-    {
-        "id": "22",
-        "title": "Project 22",
-        "description": "Custom furniture woodwork.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
-    },
-    {
-        "id": "23",
-        "title": "Project 23",
-        "description": "Botanical illustration set.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
-    },
-    {
-        "id": "24",
-        "title": "Project 24",
-        "description": "Typeface design project.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+        "title": "Study Room Modelling",
+        "description": "",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "category": "Modelling"
     },
     {
         "id": "25",
-        "title": "Project 25",
-        "description": "Social media campaign assets.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+        "title": "Sci-Fi Building Modelling",
+        "description": "",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "category": "Modelling"
     },
     {
         "id": "26",
-        "title": "Project 26",
-        "description": "Live event photography.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+        "title": "Character Modelling",
+        "description": "",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "category": "Modelling"
     },
     {
-        "id": "27",
-        "title": "Project 27",
-        "description": "Concept art for sci-fi novel.",
-        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+        "id": "22",
+        "title": "Love Story",
+        "description": "Love Story is a short story about a boy who gathers his courage to confess his feelings to a girl he likes. The story follows his emotional journey from nervousness and fear of rejection to happiness and shyness.",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "category": "Video"
+    },
+    {
+        "id": "23",
+        "title": "Batu Nisan: The Last Carver",
+        "description": "Batu Nisan: The Last Carver is a documentary about the disappearing art of traditional tombstone carving. It follows Mr. Kuah, a Chinese craftsman who creates tombstones for Malay and Indian communities, highlighting the complex carving process, his unique workplace, and the importance of preserving this fading cultural heritage.",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "category": "Video"
+    },
+    {
+        "id": "24",
+        "title": "HAPPY Birthday?",
+        "description": "“HAPPY Birthday?” is a short film that takes place during an online group meeting. While discussing an assignment, strange moments begin to occur as voices from the iPad blur the line between reality and imagination. In the end, the tension is revealed to be part of a carefully planned birthday surprise prepared by her teammates outside the door.",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "category": "Video"
     }
 ]
