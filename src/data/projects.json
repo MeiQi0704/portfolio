@@ -28,7 +28,7 @@
     },
     {
         "id": "4",
-        "title": "Lost Era: Crystal Hunt",
+        "title": "Lost Era: Crystal Hunt Trailer",
         "description": "Lost Era: Crystal Hunt is a 3D multiplayer PvE game with a Historical Time Travel theme. The game places players in different historical eras where they must work together to collect scattered energy crystals while avoiding guardians without harming them.\n\nAfter all crystals are collected, a countdown begins and alien enemies are released, forcing players to escape back to their spaceship before time runs out. The game emphasizes teamwork, critical thinking, and non-violent problem-solving through cooperative gameplay.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/zM_9WX858zE",
@@ -37,8 +37,8 @@
     },
     {
         "id": "5",
-        "title": "Secret of the Blooded Town",
-        "description": "Secret of the Blooded Town is an adventure narrative game that explores different storytelling structures through gameplay. Set in a mysterious coastal town, the game places players in the role of an investigator uncovering a series of hidden truths behind a murder case.",
+        "title": "Secret of the Blooded Town (FYP)",
+        "description": "Secret of the Blooded Town is an adventure narrative game developed as a Final Year Project that explores narrative design and storytelling structures in games. Set in a mysterious coastal town, the player takes on the role of an investigator tasked with uncovering hidden truths behind a murder case.\n\nThe project focuses on studying how different narrative structures influence player understanding, immersion, and engagement. Through environmental storytelling, dialogue, and clue-based investigation, the game examines how narrative presentation affects the way players interpret story events and make connections within the game world.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/KFKfRuDl0j0",
         "image": "/images/secret-of-the-blooded-town.png",
@@ -58,13 +58,14 @@
         "title": "The Last Light of Divinity",
         "description": "The Last Night of Divinity is a narrative-driven fantasy project set in a world where Gods, Humans, and Monsters coexist in a fragile balance. Each race is sustained by a Core Element, a powerful source of energy meant to coexist rather than dominate. For centuries, the Gods acted as overseers of this balance, but as Humans and Monsters grow independent of divine power, the Gods begin to fear the loss of their supremacy.\n\nAs divine fear turns into control, the Gods manipulate the world by stealing the Monster Core and forcing the Monsters to take the Human Core, pushing the balance toward collapse. The player takes on the role of a Human Guardian, tasked with protecting humanity, uncovering the truth behind divine manipulation, and fighting to restore a world where coexistence is chosen over domination.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
-        "ytLink": "",
+        "ytLink": "https://www.youtube.com/embed/m2fY6dH_lw4",
+        "image": "/images/the-last-light-of-divinity.png",
         "category": "Unreal Engine"
     },
     {
         "id": "9",
         "title": "Village of the Spider Curse (Unity)",
-        "description": "",
+        "description": "Once a peaceful village, now abandoned and overrun by spiders. The streets and buildings are slowly consumed as a mysterious spider entity takes control, turning the village into a dangerous and cursed territory.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/DbuUYqLXFLc",
         "image": "/images/village-of-the-spider-curse.png",
@@ -73,18 +74,18 @@
     {
         "id": "10",
         "title": "The Secret Under the Town (Unity)",
-        "description": "",
+        "description": "At first glance, the village lives in peace and normality. However, hidden within a nearby cave lies a monstrous spider, quietly growing in power and waiting for the moment to emerge.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
-        "ytLink": "",
+        "ytLink": "https://www.youtube.com/embed/jLzNseVr_k8",
         "image": "/images/the-secret-under-the-town.png",
         "category": "Game Cutscene / Timeline"
     },
     {
         "id": "8",
         "title": "The Celestial Realm (Unreal Engine)",
-        "description": "",
+        "description": "A divine kingdom floating above the mortal world, where gods reside and oversee the balance of all races. Majestic architecture and sacred energy reflect the authority, order, and power of the god race.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
-        "ytLink": "",
+        "ytLink": "https://www.youtube.com/embed/PiyxQm1vhyA",
         "image": "/images/the-celestial-realm.png",
         "category": "Game Cutscene / Timeline"
     },
@@ -102,7 +103,7 @@
         "title": "AR Greeting Card",
         "description": "An AR Christmas greeting card made with Unity and Vuforia. Scanning the card shows a festive 3D scene with interactive effects like snow, music, and photo capture for a joyful experience.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
-        "ytLink": "",
+        "ytLink": "https://drive.google.com/file/d/1pdiNpNB-m6_1xKMupsfHGJidO6Lxdy8E/preview",
         "image": "/images/ar-greeting-card.png",
         "category": "AR"
     },
@@ -120,7 +121,7 @@
         "title": "Escape the Room",
         "description": "Escape the Room is a puzzle-based game where players must explore the environment, find hidden clues, and solve puzzles to unlock the door and escape. The game challenges players’ observation skills, logic, and problem-solving abilities through immersive and interactive gameplay.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
-        "ytLink": "",
+        "ytLink": "https://www.youtube.com/embed/NHSkHdz9ZYY",
         "image": "/images/escape-the-room.png",
         "category": "VR"
     },
@@ -129,7 +130,7 @@
         "title": "Survival Island",
         "description": "Survival Island is an educational survival game where players learn basic survival knowledge through gameplay. The story begins with a shipwreck, leaving the player stranded on an unknown island with limited resources. Players must collect food and water, manage hunger and thirst, and learn survival skills such as identifying edible resources and boiling seawater. After completing key tasks, players travel to a larger island with richer resources, new animals, and potential dangers like poisonous plants. By exploring, learning, and making the right decisions, players complete the final mission and escape the island safely.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
-        "ytLink": "",
+        "ytLink": "https://www.youtube.com/embed/ySRtkijsWwc",
         "image": "/images/survival-island.png",
         "category": "VR"
     },
@@ -138,7 +139,7 @@
         "title": "Emo",
         "description": "Lily is a talented girl who grows up under extreme academic pressure from her parents. Overwhelmed by stress and emotional pain, she begins to lose herself and faces a dark inner struggle. Trapped between reality and her unconscious mind, Lily reaches a breaking point that leads to a life-changing moment.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
-        "ytLink": "",
+        "ytLink": "https://www.youtube.com/embed/c_WWjjAq0ao",
         "image": "/images/emo.png",
         "category": "Animation"
     },
@@ -172,7 +173,7 @@
     {
         "id": "20",
         "title": "The Alley Fight",
-        "description": "This animation tells the story of a young man and his sick mother living in a poor house in a dark cyberpunk alley. One day, a violent man comes to demand protection money and challenges the young man to a fight when they cannot pay. Although the young man is weak, he chooses to fight to protect his mother and their home. When he is about to lose, his mother bravely saves him by using an old gun, showing her love and courage despite her illness.",
+        "description": "This animation tells the story of a young man and his sick mother living in poverty in a dark cyberpunk alley. When a violent man arrives to demand protection money, the young man is forced into a fight he is unlikely to win. Despite his weakness, he chooses to stand and protect his mother and their home. At the moment of defeat, his mother bravely intervenes with an old gun, revealing her love, strength, and courage despite her illness.\nAll characters in this animation were fully modeled by our team, highlighting both technical modeling skills and emotional storytelling through animation.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/aWnp2ja4FPM",
         "image": "/images/the-alley-fight.png",
@@ -233,7 +234,7 @@
     {
         "id": "22",
         "title": "Love Story",
-        "description": "Love Story is a short story about a boy who gathers his courage to confess his feelings to a girl he likes. The story follows his emotional journey from nervousness and fear of rejection to happiness and shyness.",
+        "description": "Love Story is a short film about a boy who gathers the courage to confess his feelings to a girl he likes. The narrative follows his emotional journey from nervous anticipation and fear of rejection to moments of happiness and shy relief.\n\nThe film applies basic cinematic shooting techniques to enhance storytelling, including establishing shots to set the mood, close-up shots to emphasize emotions, and slow pan shots to create a gentle, romantic atmosphere. Camera movement and framing are used intentionally to guide the audience’s focus and reflect the character’s inner feelings throughout the story.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/DuMxHbPrQz8",
         "image": "/images/love-story.png",
@@ -244,7 +245,7 @@
         "title": "Batu Nisan: The Last Carver",
         "description": "Batu Nisan: The Last Carver is a documentary about the disappearing art of traditional tombstone carving. It follows Mr. Kuah, a Chinese craftsman who creates tombstones for Malay and Indian communities, highlighting the complex carving process, his unique workplace, and the importance of preserving this fading cultural heritage.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
-        "ytLink": "https://www.youtube.com/embed/DuMxHbPrQz8",
+        "ytLink": "https://www.youtube.com/embed/da_6xHVOkQM",
         "image": "/images/batu-nisan-the-last-carver.png",
         "category": "Video"
     },
@@ -260,9 +261,10 @@
     {
         "id": "27",
         "title": "10 Types of DMT Student Life",
-        "description": "",
+        "description": "“10 Types of DMT Student Life” is a creative re-dubbing project where existing movie scenes are trimmed and re-edited, then combined with original voice-over to represent different types of Digital Media Technology students. Through humor and relatable situations, the project portrays everyday student life, including assignments, deadlines, group work, stress, creativity, and personal habits. By transforming familiar film moments into student narratives, the work reflects shared experiences and personalities commonly seen in DMT student life.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
-        "ytLink": "",
+        "ytLink": "https://www.youtube.com/embed/e8pFrBXomB4",
+        "image": "/images/10-types-of-dmt-students.png",
         "category": "Audio"
     }
 ]
