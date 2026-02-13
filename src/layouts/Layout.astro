@@ -1,5 +1,6 @@
 ---
 import Footer from '../components/Footer.astro';
+import Navbar from '../components/Navbar.astro';
 ---
 <!doctype html>
 <html lang="en">
@@ -16,6 +17,7 @@ import Footer from '../components/Footer.astro';
 	</head>
 	<body>
 		<div class="noise-overlay"></div>
+		<Navbar />
 		<slot />
 		<Footer />
 	</body>
@@ -38,6 +40,7 @@ import Footer from '../components/Footer.astro';
 		--spacing-md: 1rem;
 		--spacing-lg: 2rem;
 		--spacing-xl: 4rem;
+		--spacing-xxl: 6rem;
 
 		--border-radius: 12px;
 		--shadow-soft: 0 4px 20px rgba(74, 69, 62, 0.05);

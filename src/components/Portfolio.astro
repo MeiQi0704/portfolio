@@ -13,7 +13,10 @@ const CATEGORIES = [
   "Animation",
   "Modelling",
   "Video",
-  "Audio"
+  "Audio",
+  "Graphic Design",
+  "Mobile Application",
+  "Web Application"
 ];
 
 // Group projects by category
@@ -28,17 +31,10 @@ const activeCategories = CATEGORIES.filter(cat => projectsByCategory[cat].length
 
 <section id="portfolio" class="portfolio-section">
   <div class="container">
-    <div class="jump-to-project">
-      <select id="category-select" aria-label="Jump to category">
-        <option value="" disabled selected>Category</option>
-        {activeCategories.map((category) => (
-          <option value={`category-${category}`}>{category}</option>
-        ))}
-      </select>
-    </div>
-
-    {activeCategories.map((category) => (
-      <div class="category-section" id={`category-${category}`}>
+    {activeCategories.map((category) => {
+      const slug = category.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+      return (
+      <div class="category-section" id={`category-${slug}`}>
         <h3 class="category-title">{category}</h3>
         <div class="project-grid">
           {projectsByCategory[category].map((project) => (
@@ -61,32 +57,10 @@ const activeCategories = CATEGORIES.filter(cat => projectsByCategory[cat].length
           ))}
         </div>
       </div>
-    ))}
+      );
+    })}
   </div>
 </section>
-
-<script>
-  const categorySelect = document.getElementById('category-select') as HTMLSelectElement;
-  
-  if (categorySelect) {
-    categorySelect.addEventListener('change', (e) => {
-      const targetId = (e.target as HTMLSelectElement).value;
-      if (targetId) {
-        const targetElement = document.getElementById(targetId);
-        if (targetElement) {
-          // Smooth scroll to the element
-          targetElement.scrollIntoView({ 
-            behavior: 'smooth',
-            block: 'start' // Scroll to start of section
-          });
-          
-          // Reset selection
-          categorySelect.value = "";
-        }
-      }
-    });
-  }
-</script>
 
 <style>
   .portfolio-section {
@@ -94,43 +68,9 @@ const activeCategories = CATEGORIES.filter(cat => projectsByCategory[cat].length
     position: relative;
   }
 
-  .jump-to-project {
-    display: flex;
-    justify-content: flex-end; /* Align to right */
-    margin-bottom: var(--spacing-xxl);
-  }
-
-  #category-select {
-    padding: 0.8rem 1.5rem;
-    font-size: 1rem;
-    color: var(--color-text);
-    background-color: var(--color-surface);
-    border: 1px solid rgba(0,0,0,0.1);
-    border-radius: 2rem;
-    cursor: pointer;
-    font-family: var(--font-body);
-    outline: none;
-    appearance: none; /* Remove default arrow */
-    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
-    background-repeat: no-repeat;
-    background-position: right 1rem center;
-    background-size: 0.8rem;
-    padding-right: 2.5rem;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-    transition: box-shadow 0.3s ease, border-color 0.3s ease;
-    min-width: 250px;
-    max-width: 100%;
-  }
-
-  #category-select:hover,
-  #category-select:focus {
-    border-color: var(--color-accent);
-    box-shadow: 0 6px 12px -2px rgba(0, 0, 0, 0.1);
-  }
-
-
   .category-section {
     margin-bottom: var(--spacing-xxl);
+    scroll-margin-top: 120px; /* offset for sticky navbar */
   }
 
   .category-title {
@@ -140,7 +80,8 @@ const activeCategories = CATEGORIES.filter(cat => projectsByCategory[cat].length
     margin-bottom: var(--spacing-lg);
     border-bottom: 2px solid var(--color-accent);
     padding-bottom: 0.5rem;
-    display: inline-block;
+    display: block;
+    width: 100%;
   }
 
   .project-grid {

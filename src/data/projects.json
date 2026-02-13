@@ -6,7 +6,8 @@
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/cVqptUrSHuU",
         "image": "/images/magical-maze-heart-and-key-quest.png",
-        "category": "Unity"
+        "category": "Unity",
+        "tools": "Unity"
     },
     {
         "id": "2",
@@ -15,7 +16,8 @@
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/qOCyQi9lx44",
         "image": "/images/merlins-curse.png",
-        "category": "Unity"
+        "category": "Unity",
+        "tools": "Unity"
     },
     {
         "id": "3",
@@ -24,7 +26,8 @@
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/rH6oLNBAGMA",
         "image": "/images/battle-banner.png",
-        "category": "Unity"
+        "category": "Unity",
+        "tools": "Unity"
     },
     {
         "id": "4",
@@ -33,7 +36,8 @@
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/zM_9WX858zE",
         "image": "/images/lost-era-crystal-hunt.png",
-        "category": "Unity"
+        "category": "Unity",
+        "tools": "Unity"
     },
     {
         "id": "5",
@@ -42,7 +46,8 @@
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/KFKfRuDl0j0",
         "image": "/images/secret-of-the-blooded-town.png",
-        "category": "Unity"
+        "category": "Unity",
+        "tools": "Unity"
     },
     {
         "id": "6",
@@ -51,7 +56,8 @@
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/XsCCR_19_tc",
         "image": "/images/lightbound.png",
-        "category": "Unreal Engine"
+        "category": "Unreal Engine",
+        "tools": "Unreal Engine"
     },
     {
         "id": "7",
@@ -60,7 +66,8 @@
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/m2fY6dH_lw4",
         "image": "/images/the-last-light-of-divinity.png",
-        "category": "Unreal Engine"
+        "category": "Unreal Engine",
+        "tools": "Unreal Engine"
     },
     {
         "id": "9",
@@ -69,7 +76,8 @@
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/DbuUYqLXFLc",
         "image": "/images/village-of-the-spider-curse.png",
-        "category": "Game Cutscene / Timeline"
+        "category": "Game Cutscene / Timeline",
+        "tools": "Unity, Timeline"
     },
     {
         "id": "10",
@@ -78,7 +86,8 @@
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/jLzNseVr_k8",
         "image": "/images/the-secret-under-the-town.png",
-        "category": "Game Cutscene / Timeline"
+        "category": "Game Cutscene / Timeline",
+        "tools": "Unity, Timeline"
     },
     {
         "id": "8",
@@ -87,7 +96,8 @@
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/PiyxQm1vhyA",
         "image": "/images/the-celestial-realm.png",
-        "category": "Game Cutscene / Timeline"
+        "category": "Game Cutscene / Timeline",
+        "tools": "Unreal Engine, Timeline"
     },
     {
         "id": "11",
@@ -96,7 +106,8 @@
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/xCSjb8f2aiE",
         "image": "/images/ar-business-card.png",
-        "category": "AR"
+        "category": "AR",
+        "tools": "Unity, Vuforia Engine"
     },
     {
         "id": "12",
@@ -105,7 +116,8 @@
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://drive.google.com/file/d/1pdiNpNB-m6_1xKMupsfHGJidO6Lxdy8E/preview",
         "image": "/images/ar-greeting-card.png",
-        "category": "AR"
+        "category": "AR",
+        "tools": "Unity, Vuforia Engine"
     },
     {
         "id": "13",
@@ -114,7 +126,8 @@
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/Ubvhfanhr98",
         "image": "/images/ar-storybook-three-little-pigs.png",
-        "category": "AR"
+        "category": "AR",
+        "tools": "Unity, Vuforia Engine"
     },
     {
         "id": "14",
@@ -123,7 +136,8 @@
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/NHSkHdz9ZYY",
         "image": "/images/escape-the-room.png",
-        "category": "VR"
+        "category": "VR",
+        "tools": "Unity"
     },
     {
         "id": "15",
@@ -132,7 +146,8 @@
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/ySRtkijsWwc",
         "image": "/images/survival-island.png",
-        "category": "VR"
+        "category": "VR",
+        "tools": "Unity"
     },
     {
         "id": "16",
@@ -141,7 +156,8 @@
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/c_WWjjAq0ao",
         "image": "/images/emo.png",
-        "category": "Animation"
+        "category": "Animation",
+        "tools": "Adobe Animate, Procreate"
     },
     {
         "id": "17",
@@ -150,7 +166,8 @@
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/yg2g49rY1Ks",
         "image": "/images/meowtivation-journey.png",
-        "category": "Animation"
+        "category": "Animation",
+        "tools": "Adobe Animate, Procreate"
     },
     {
         "id": "18",
@@ -159,7 +176,8 @@
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/bF8xCIKoJio",
         "image": "/images/scissor-and-pencil.png",
-        "category": "Animation"
+        "category": "Animation",
+        "tools": "Autodesk Maya"
     },
     {
         "id": "19",
@@ -168,7 +186,8 @@
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/xja1nG_-4zg",
         "image": "/images/human-and-animal-walk-run-cycle.png",
-        "category": "Animation"
+        "category": "Animation",
+        "tools": "Autodesk Maya"
     },
     {
         "id": "20",
@@ -177,7 +196,8 @@
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/aWnp2ja4FPM",
         "image": "/images/the-alley-fight.png",
-        "category": "Animation"
+        "category": "Animation",
+        "tools": "Autodesk Maya"
     },
     {
         "id": "21",
@@ -194,7 +214,8 @@
             "/images/study-room-environment-04.jpg",
             "/images/study-room-environment-05.jpg"
         ],
-        "category": "Modelling"
+        "category": "Modelling",
+        "tools": "Autodesk Maya"
     },
     {
         "id": "25",
@@ -212,7 +233,8 @@
             "/images/sci-fi-building-environment-04.jpg",
             "/images/sci-fi-building-environment-05.jpg"
         ],
-        "category": "Modelling"
+        "category": "Modelling",
+        "tools": "Autodesk Maya"
     },
     {
         "id": "26",
@@ -229,7 +251,8 @@
             "/images/character-modelling-04.jpg",
             "/images/character-modelling-05.jpg"
         ],
-        "category": "Modelling"
+        "category": "Modelling",
+        "tools": "Autodesk Maya"
     },
     {
         "id": "22",
@@ -238,7 +261,8 @@
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/DuMxHbPrQz8",
         "image": "/images/love-story.png",
-        "category": "Video"
+        "category": "Video",
+        "tools": "CapCut"
     },
     {
         "id": "23",
@@ -247,7 +271,8 @@
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/da_6xHVOkQM",
         "image": "/images/batu-nisan-the-last-carver.png",
-        "category": "Video"
+        "category": "Video",
+        "tools": "CapCut"
     },
     {
         "id": "24",
@@ -265,6 +290,95 @@
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
         "ytLink": "https://www.youtube.com/embed/e8pFrBXomB4",
         "image": "/images/10-types-of-dmt-students.png",
-        "category": "Audio"
+        "category": "Audio",
+        "tools": "CapCut"
+    },
+    {
+        "id": "28",
+        "title": "Visual Soundscape – Graduation Reflection",
+        "description": "This project is an audio narrative inspired by a graduation moment, symbolizing the completion of an important life chapter. Through layered environmental sounds and music, I portray a four-year journey filled with curiosity, stress, growth, and reflection. Cheerful sounds such as birds chirping and lively campus chatter represent the excitement of the first day, while lighter background music reinforces her enthusiasm.\n\nAs the journey progresses, sounds like keyboard typing, paper flipping, and clock ticking introduce academic pressure, accompanied by a more tense musical tone. The piece concludes with a softer, reflective atmosphere, highlighting her realization of how quickly time has passed and how much she has grown. The project demonstrates how sound design alone can communicate emotional storytelling.",
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "ytLink": "https://www.youtube.com/embed/m3WtBr5Z-AY",
+        "image": "/images/Girl_Guaduate_Pic.jpeg",
+        "category": "Audio",
+        "tools": "Adobe Audition"
+    },
+    {
+        "id": "29",
+        "title": "Poster",
+        "image": "/images/Poster.png",
+        "category": "Graphic Design",
+        "tools": "Adobe InDesign, Adobe Photoshop"
+    },
+    {
+        "id": "32",
+        "title": "Newsletter",
+        "description": "",
+        "videoUrl": "",
+        "ytLink": "",
+        "image": "/images/newsletter1.png",
+        "galleryImages": [
+            "/images/newsletter1.png",
+            "/images/newsletter2.png",
+            "/images/newsletter3.png"
+        ],
+        "category": "Graphic Design",
+        "tools": "Adobe InDesign, Adobe Photoshop"
+    },
+    {
+        "id": "33",
+        "title": "Flyer",
+        "description": "",
+        "videoUrl": "",
+        "ytLink": "",
+        "image": "/images/Flyer.png",
+        "category": "Graphic Design",
+        "tools": "Adobe InDesign, Adobe Photoshop"
+    },
+    {
+        "id": "30",
+        "title": "Fitness Mobile Application - Boostify",
+        "description": "A mobile health and fitness application designed to help users manage their daily wellness routines efficiently. The app enables users to schedule fitness classes, track calorie intake and calories burned, monitor workout performance, and engage with a community feed for motivation and support.",
+        "videoUrl": "",
+        "ytLink": "",
+        "image": "/images/m2.jpg",
+        "orientation": "portrait",
+        "galleryImages": [
+            "/images/m1.jpg",
+            "/images/m2.jpg",
+            "/images/m3.jpg",
+            "/images/m4.jpg",
+            "/images/m5.jpg",
+            "/images/m6.jpg",
+            "/images/m7.jpg",
+            "/images/m8.jpg",
+            "/images/m9.jpg",
+            "/images/m10.jpg",
+            "/images/m11.jpg",
+            "/images/m12.jpg",
+            "/images/m13.jpg"
+        ],
+        "category": "Mobile Application",
+        "tools": "Flutter, Firebase, HTML, CSS, JavaScript"
+    },
+    {
+        "id": "31",
+        "title": "Fitness Web Application - Boostify",
+        "description": "A web-based health and fitness platform that enables users to schedule classes, track calorie intake and calories burned, and engage with a community feed to support their fitness journey.",
+        "videoUrl": "",
+        "ytLink": "",
+        "image": "/images/web3.jpg",
+        "galleryImages": [
+            "/images/web1.jpg",
+            "/images/web2.jpg",
+            "/images/web3.jpg",
+            "/images/web4.jpg",
+            "/images/web5.jpg",
+            "/images/web6.jpg",
+            "/images/web7.jpg",
+            "/images/web8.jpg"
+        ],
+        "category": "Web Application",
+        "tools": "Flutter, Firebase, HTML, CSS, JavaScript"
     }
 ]

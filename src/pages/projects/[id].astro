@@ -22,10 +22,10 @@ const { project } = Astro.props;
           <h1>{project.title}</h1>
         </header>
 
-        {project.category === 'Modelling' ? (
-           <div class="gallery-container">
-             {Array.from({ length: 6 }).map((_, index) => {
-               const image = project.galleryImages?.[index];
+        {(project.category === 'Modelling' || project.category === 'Web Application' || project.category === 'Mobile Application') ? (
+           <div class={`gallery-container ${project.category === 'Mobile Application' ? 'mobile-gallery' : ''}`}>
+             {(project.galleryImages || Array.from({ length: 6 })).map((item, index) => {
+               const image = typeof item === 'string' ? item : null;
                return (
                  <div class={`gallery-frame ${project.orientation === 'portrait' ? 'portrait' : ''}`}>
                    {image ? (
@@ -38,6 +38,22 @@ const { project } = Astro.props;
                  </div>
                );
              })}
+           </div>
+        ) : (project.category === 'Graphic Design') ? (
+           <div class="graphic-design-images">
+             {project.galleryImages ? (
+               project.galleryImages.map((img) => (
+                 <div class="image-container">
+                   <img src={img} alt={project.title} class="project-main-image" />
+                 </div>
+               ))
+             ) : (
+                project.image && (
+                <div class="image-container" style={project.title === 'Poster' ? "max-width: 300px;" : ""}>
+                   <img src={project.image} alt={project.title} class="project-main-image" />
+                </div>
+                )
+             )}
            </div>
         ) : (
           <div class="video-container">
@@ -56,26 +72,170 @@ const { project } = Astro.props;
                  Your browser does not support the video tag.
               </video>
             )}
-          </div>
+           </div>
         )}
 
-        {project.description && (
+        {(project.description || project.tools) && (
         <div class="project-details">
           <div class="detail-block">
-             <h3>{project.title}</h3>
-             <p>{project.description}</p>
+             {project.description && (
+               <>
+                 <h3>{project.title}</h3>
+                 <p>{project.description}</p>
+               </>
+             )}
+             
+             {project.tools && (
+               <div class="tools-section" style={!project.description ? "border-top: none; padding-top: 0; margin-top: var(--spacing-lg);" : ""}>
+                 <p class="tools-inline">Tools and Software: <strong>{project.tools}</strong></p>
+               </div>
+             )}
           </div>
         </div>
         )}
       </article>
     </div>
   </div>
+  
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox">
+    <span class="close-btn">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+  </div>
+
 </Layout>
 
+<script>
+  // Lightbox Logic
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  const closeBtn = document.getElementsByClassName('close-btn')[0];
+  
+  // Get all images that should be zoomable
+  // This includes gallery images and the main graphic design/web app images
+  const images = document.querySelectorAll('.gallery-image, .project-main-image');
+  
+  images.forEach(img => {
+    img.addEventListener('click', function() {
+      lightbox.style.display = "flex";
+      lightboxImg.src = this.src;
+      document.body.style.overflow = "hidden"; // Prevent scrolling
+    });
+  });
+  
+  // Close logic
+  function closeLightbox() {
+    lightbox.style.display = "none";
+    document.body.style.overflow = "auto"; // Restore scrolling
+  }
+
+  // Close on 'x' click
+  if (closeBtn) {
+    closeBtn.addEventListener('click', closeLightbox);
+  }
+
+  // Close on click outside image
+  if (lightbox) {
+    lightbox.addEventListener('click', function(e) {
+      if (e.target === lightbox) {
+        closeLightbox();
+      }
+    });
+  }
+
+  // Close on Escape key
+  document.addEventListener('keydown', function(e) {
+    if (e.key === "Escape" && lightbox.style.display === "flex") {
+      closeLightbox();
+    }
+  });
+</script>
+
 <style>
+  /* ... existing styles ... */
+  
+  /* Lightbox Styles */
+  .lightbox {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Prevent scroll on overlay */
+    background-color: rgba(0,0,0,0.85); /* Dark overlay */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .lightbox-content {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 90vh;
+    width: auto;
+    height: auto;
+    object-fit: contain; /* Ensure aspect ratio */
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    animation-name: zoom;
+    animation-duration: 0.3s;
+  }
+
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+    z-index: 10001;
+    line-height: 1; /* Fix vertical alignment */
+  }
+
+  .close-btn:hover,
+  .close-btn:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* Responsive logic for lightbox */
+  @media only screen and (max-width: 700px){
+    .lightbox-content {
+      width: 100%;
+    }
+  }
+
   .project-page {
     padding: var(--spacing-xl) 0;
     min-height: 100vh;
+  }
+/* ... rest of styles ... */
+
+  .mobile-gallery {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .mobile-gallery .gallery-frame {
+    max-width: 250px;
+    margin: 0 auto;
+    width: 100%; /* Ensure it fills width up to max-width */
+  }
+
+  @media (max-width: 600px) {
+    .mobile-gallery {
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
 
   .back-link {
@@ -135,6 +295,20 @@ const { project } = Astro.props;
     font-size: 1.1rem;
     line-height: 1.7;
   }
+
+  .tools-section {
+    margin-top: var(--spacing-lg); /* Reduced from xl to bring it up */
+    padding-top: var(--spacing-sm);
+    border-top: 1px solid var(--color-border);
+  }
+
+  .tools-inline {
+    font-size: 1.3rem; 
+    font-family: var(--font-heading);
+    color: var(--color-text);
+    margin-top: 0;
+    font-weight: 700; /* Bold */
+  }
   .gallery-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -161,6 +335,12 @@ const { project } = Astro.props;
     height: 100%;
     object-fit: cover;
     display: block;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .gallery-image:hover {
+    transform: scale(1.02);
   }
 
   .placeholder-frame {
@@ -173,5 +353,24 @@ const { project } = Astro.props;
     color: #888;
     font-size: 0.9rem;
     font-weight: bold;
+  .image-container {
+    width: 100%;
+    max-width: 400px; /* Further reduced width */
+    margin: 0 auto var(--spacing-xxl); /* Center and increase bottom margin */
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow-soft);
+  }
+
+  .project-main-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .project-main-image:hover {
+    transform: scale(1.02);
   }
 </style>
