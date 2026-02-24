@@ -55,6 +55,44 @@ const { project } = Astro.props;
                 )
              )}
            </div>
+        ) : (project.category === 'Social Media / Content Creation') ? (
+           <div class="social-media-container">
+             {project.description && (
+               <div class="campaign-description">
+                 <p>{project.description}</p>
+                 {project.tools && (
+                   <p class="tools-inline" style="margin-top: 1rem;">Tools and Software: <strong>{project.tools}</strong></p>
+                 )}
+               </div>
+             )}
+             <div class="vertical-video-gallery">
+               {project.videos && project.videos.map((vid, index) => (
+                 <div class="video-container">
+                   {vid ? (
+                     vid.includes('youtube') || vid.includes('drive.google.com') ? (
+                       <iframe
+                         class="project-video"
+                         src={vid}
+                         title={project.title + " Video " + (index + 1)}
+                         frameborder="0"
+                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                         allowfullscreen
+                       ></iframe>
+                     ) : (
+                       <video controls class="project-video">
+                          <source src={vid} type="video/mp4" />
+                          Your browser does not support the video tag.
+                       </video>
+                     )
+                   ) : (
+                     <video controls poster={"https://via.placeholder.com/1280x720/cbbca0/4a453e?text=Video+" + (index+1)} class="project-video">
+                       Your browser does not support the video tag.
+                     </video>
+                   )}
+                 </div>
+               ))}
+             </div>
+           </div>
         ) : (
           <div class="video-container">
             {project.ytLink ? (
@@ -75,10 +113,10 @@ const { project } = Astro.props;
            </div>
         )}
 
-        {(project.description || project.tools) && (
+        {((project.category !== 'Social Media / Content Creation' ? project.description : null) || project.tools) && (
         <div class="project-details">
           <div class="detail-block">
-             {project.description && (
+             {(project.category !== 'Social Media / Content Creation' && project.description) && (
                <>
                  <h3>{project.title}</h3>
                  <p>{project.description}</p>
@@ -86,7 +124,7 @@ const { project } = Astro.props;
              )}
              
              {project.tools && (
-               <div class="tools-section" style={!project.description ? "border-top: none; padding-top: 0; margin-top: var(--spacing-lg);" : ""}>
+               <div class="tools-section" style={!(project.category !== 'Social Media / Content Creation' && project.description) ? "border-top: none; padding-top: 0; margin-top: var(--spacing-lg);" : ""}>
                  <p class="tools-inline">Tools and Software: <strong>{project.tools}</strong></p>
                </div>
              )}
@@ -270,6 +308,19 @@ const { project } = Astro.props;
     box-shadow: var(--shadow-soft);
     margin-bottom: var(--spacing-xl);
     background: #000;
+  }
+
+  .campaign-description {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: var(--spacing-xl);
+    color: var(--color-text);
+  }
+
+  .vertical-video-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
   }
 
   .project-video {

@@ -16,7 +16,8 @@ const CATEGORIES = [
   "Audio",
   "Graphic Design",
   "Mobile Application",
-  "Web Application"
+  "Web Application",
+  "Social Media / Content Creation"
 ];
 
 // Group projects by category
@@ -26,18 +27,21 @@ const projectsByCategory = CATEGORIES.reduce((acc, category) => {
 }, {} as Record<string, typeof projects>);
 
 // Filter out empty categories for rendering
-const activeCategories = CATEGORIES.filter(cat => projectsByCategory[cat].length > 0);
+const activeCategories = CATEGORIES.filter(cat => projectsByCategory[cat].length > 0 || cat === "Social Media / Content Creation");
 ---
 
 <section id="portfolio" class="portfolio-section">
   <div class="container">
     {activeCategories.map((category) => {
-      const slug = category.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+      let slug = category.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+      if (category === "Social Media / Content Creation") {
+        slug = "social-media";
+      }
       return (
       <div class="category-section" id={`category-${slug}`}>
         <h3 class="category-title">{category}</h3>
         <div class="project-grid">
-          {projectsByCategory[category].map((project) => (
+          {projectsByCategory[category].length > 0 ? projectsByCategory[category].map((project) => (
             <a href={`/projects/${project.id}`} class="project-card" id={`project-${project.id}`}>
               {project.image ? (
                 <div class="card-image-container">
@@ -50,11 +54,20 @@ const activeCategories = CATEGORIES.filter(cat => projectsByCategory[cat].length
               )}
               <div class="card-content">
                 <h3>{project.title}</h3>
-                <!-- <p>{truncate(project.description, 60)}</p> -->
                 <span class="read-more">View Project &rarr;</span>
               </div>
             </a>
-          ))}
+          )) : (
+            <div class="project-card" style="cursor: default;">
+              <div class="card-image-placeholder">
+                <span class="placeholder-icon">Coming Soon</span>
+              </div>
+              <div class="card-content">
+                <h3>More Projects Coming Soon</h3>
+                <span class="read-more" style="visibility: hidden;">View Project &rarr;</span>
+              </div>
+            </div>
+          )}
         </div>
       </div>
       );
@@ -82,6 +95,14 @@ const activeCategories = CATEGORIES.filter(cat => projectsByCategory[cat].length
     padding-bottom: 0.5rem;
     display: block;
     width: 100%;
+  }
+
+  .category-description {
+    font-size: 1rem;
+    color: rgba(74, 69, 62, 0.8);
+    margin-bottom: var(--spacing-lg);
+    line-height: 1.6;
+    max-width: 800px;
   }
 
   .project-grid {
@@ -179,4 +200,5 @@ const activeCategories = CATEGORIES.filter(cat => projectsByCategory[cat].length
     text-transform: uppercase;
     letter-spacing: 0.05em;
   }
+
 </style>

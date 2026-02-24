@@ -380,5 +380,22 @@
         ],
         "category": "Web Application",
         "tools": "Flutter, Firebase, HTML, CSS, JavaScript"
+    },
+    {
+        "id": "34",
+        "title": "IG Reels/Story",
+        "description": "This project showcases my video editing and social media content creation work, including promotional videos, short-form content, and event publicity materials.",
+        "videoUrl": "",
+        "ytLink": "",
+        "image": "/images/socialmedia.jpg",
+        "category": "Social Media / Content Creation",
+        "videos": [
+            "https://drive.google.com/file/d/1QIqITeBQL0ugkfp5TeEzE82_-5HCesgq/preview",
+            "https://drive.google.com/file/d/1dPb1dLHVQ69DnXAaiOlbzZAXFwHaRQdi/preview",
+            "https://drive.google.com/file/d/1pS2W7jQmmsPkltnHlloWAV_GbyGptigT/preview",
+            "https://drive.google.com/file/d/19nseCwXu0XtrnM6FMd45z0iDBUTVazUh/preview",
+            "https://drive.google.com/file/d/1cLeuMhaWsPWC09khgo1AmGH7e6j8---W/preview"
+        ],
+        "tools": "CapCut"
     }
 ]

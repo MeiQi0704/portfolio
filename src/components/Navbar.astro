@@ -14,7 +14,8 @@ const CATEGORIES = [
   "Audio",
   "Graphic Design",
   "Mobile Application",
-  "Web Application"
+  "Web Application",
+  "Social Media & Content Creation"
 ];
 ---
 
@@ -35,7 +36,10 @@ const CATEGORIES = [
           </a>
           <ul class="dropdown-menu">
             {CATEGORIES.map((category) => {
-              const slug = category.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+              let slug = category.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+              if (category === "Social Media & Content Creation") {
+                slug = "social-media";
+              }
               return (
               <li>
                 <a href={`/#category-${slug}`} class="category-link" data-category={category}>
