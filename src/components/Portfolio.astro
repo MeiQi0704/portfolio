@@ -22,7 +22,7 @@ const CATEGORIES = [
 
 // Group projects by category
 const projectsByCategory = CATEGORIES.reduce((acc, category) => {
-  acc[category] = projects.filter(p => p.category === category);
+  acc[category] = projects.filter(p => p.category === category && !(p as any).hidden);
   return acc;
 }, {} as Record<string, typeof projects>);
 

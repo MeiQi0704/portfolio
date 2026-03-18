@@ -266,6 +266,7 @@
     },
     {
         "id": "23",
+        "hidden": true,
         "title": "Batu Nisan: The Last Carver",
         "description": "Batu Nisan: The Last Carver is a documentary about the disappearing art of traditional tombstone carving. It follows Mr. Kuah, a Chinese craftsman who creates tombstones for Malay and Indian communities, highlighting the complex carving process, his unique workplace, and the importance of preserving this fading cultural heritage.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
@@ -276,6 +277,7 @@
     },
     {
         "id": "24",
+        "hidden": true,
         "title": "HAPPY Birthday?",
         "description": "“HAPPY Birthday?” is a short film that takes place during an online group meeting. While discussing an assignment, strange moments begin to occur as voices from the iPad blur the line between reality and imagination. In the end, the tension is revealed to be part of a carefully planned birthday surprise prepared by her teammates outside the door.",
         "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",

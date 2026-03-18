@@ -2,20 +2,15 @@
 const pathname = new URL(Astro.request.url).pathname;
 const currentPath = pathname.slice(1); // remove the first "/"
 
-const CATEGORIES = [
-  "Unity",
-  "Unreal Engine",
-  "Game Cutscene / Timeline",
-  "AR",
-  "VR",
-  "Animation",
-  "Modelling",
-  "Video",
-  "Audio",
-  "Graphic Design",
-  "Mobile Application",
-  "Web Application",
-  "Social Media & Content Creation"
+const MENU_ITEMS = [
+  { label: "Unity / Unreal Engine", target: "Unity" },
+  { label: "Game Cutscene / Timeline", target: "Game Cutscene / Timeline" },
+  { label: "AR / VR", target: "AR" },
+  { label: "Animation / Modelling", target: "Animation" },
+  { label: "Video / Audio", target: "Video" },
+  { label: "Graphic Design", target: "Graphic Design" },
+  { label: "Mobile / Web Application", target: "Mobile Application" },
+  { label: "Social Media / Content Creation", target: "Social Media / Content Creation" }
 ];
 ---
 
@@ -35,15 +30,15 @@ const CATEGORIES = [
             </svg>
           </a>
           <ul class="dropdown-menu">
-            {CATEGORIES.map((category) => {
-              let slug = category.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-              if (category === "Social Media & Content Creation") {
+            {MENU_ITEMS.map((item) => {
+              let slug = item.target.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+              if (item.target === "Social Media / Content Creation") {
                 slug = "social-media";
               }
               return (
               <li>
-                <a href={`/#category-${slug}`} class="category-link" data-category={category}>
-                  {category}
+                <a href={`/#category-${slug}`} class="category-link" data-category={item.target}>
+                  {item.label}
                 </a>
               </li>
               );
